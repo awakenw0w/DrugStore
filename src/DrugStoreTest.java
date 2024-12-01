@@ -29,19 +29,19 @@ public class DrugStoreTest {
         assertEquals(expectedInfo, drugStore.store_info());
     }
 
-    // Тестируем метод expensive_drug()
+    // тест метода expensive_drug
     @Test
     public void testExpensiveDrug() {
-        double expectedMaxPrice = 100.0; // Ожидаемое значение для самой дорогой цены
-        // Проверка правильности возвращаемой цены
+        double expectedMaxPrice = 100.0; // ожидаемое значение для самой дорогой цены
+        // проверка правильности возвращаемой цены
         assertEquals(expectedMaxPrice, drugStore.expensive_drug());
     }
 
-    // Тестируем метод total_cost()
+    // тест метода total_cost
     @Test
     public void testTotalCost() {
-        double expectedTotalCost = 100.0 + 50.0 + 30.0; // Ожидаемая стоимость всех лекарств
-        // Проверка правильности общей стоимости
+        double expectedTotalCost = 100.0 + 50.0 + 30.0; // ожидаемая стоимость всех лекарств
+        // проверка правильности общей стоимости
         assertEquals(expectedTotalCost, drugStore.total_cost());
     }
     }
