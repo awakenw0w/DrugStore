@@ -46,5 +46,4 @@ class DrugStore {
         }
         return totalCost;
     }
-
 }
